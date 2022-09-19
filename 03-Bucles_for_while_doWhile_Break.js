@@ -10,13 +10,17 @@ console.log("vamos por el numero: "+i);
 
  // Bucle While:  (Mientras que una condición no se cumpla, agregale o sumale
 // algo para que se cumpla)
- /*
+ 
 var year = 2010;
 
 while (year <= 2050){
         console.log("Estamos en el año: "+year)
         year++;
-} */
+
+        if (year == 2030){ // de esta forma, podemos parar una condición.
+                break
+        }
+} 
 
 
 // Do While: El DO WHILE, nos permite ejecutar primero un bloque de
