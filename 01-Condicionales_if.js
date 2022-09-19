@@ -1,6 +1,6 @@
  // Condicional IF.
 //Si pasa esto, ejecuta esto. 
-
+/*
 alert('Hola!')
 
 var edad1 = 10;
@@ -13,7 +13,7 @@ if ( edad1 > edad2) {
         console.log('No, no es mayor.')
 }
 
-
+*/
 
 // Ejercicio práctico para saber si un usuario es mayor de edad
 
@@ -23,9 +23,9 @@ const nombre = "Lucas"
 if(edad < 18){
 console.log(nombre+" tiene "+edad+" años, es mayor de edad");}
 
-if(edad == 33){
+if(edad < 33){
 console.log('Todavia eres millenial');
-}else if(edad >= 70){
+}else if(edad <= 70){
 console.log('Eres anciano');
 }else {
 console.log('Ya no eres Millenial');} 
